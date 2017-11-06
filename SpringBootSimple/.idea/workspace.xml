@@ -2,52 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c99ace9-d0a4-4ca6-892d-5e43108002ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/TestMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/framework/ComponentFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/framework/Dependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/framework/InjectDependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/modules/ModuleA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/modules/ModuleB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/modules/ModuleBImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/modules/ModuleC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AnnotationSample/target/classes/com/sample/modules/ModuleCImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/aspect-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/TestMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/aspects/LazyLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/framework/ComponentFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/framework/Dependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/framework/InjectDependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/modules/ModuleA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/modules/ModuleB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/modules/ModuleBImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/modules/ModuleC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/classes/com/sample/modules/ModuleCImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AspectExample/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/ComponentFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/Dependency.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/InjectDependency.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.classpath" afterPath="$PROJECT_DIR$/../AnnotationSample/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.project" afterPath="$PROJECT_DIR$/../AnnotationSample/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../AnnotationSample/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/pom.xml" afterPath="$PROJECT_DIR$/../AspectExample/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/TestMain.java" afterPath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/TestMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/aspects/LazyLoader.java" afterPath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/aspects/LazyLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +26,8 @@
       <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ModuleBImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/modules/ModuleBImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -311,6 +275,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1c99ace9-d0a4-4ca6-892d-5e43108002ef" name="Default" comment="" />
@@ -371,10 +338,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/modules/ModuleBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -16,7 +16,7 @@ public class LazyLoader {
     @Pointcut("execution(* com.sample.modules.ModuleA.*(..))")
     public void lazyPostChecker(){}//pointcut name
 
-    @After("lazyPreChecker()")//applying pointcut on before advice
+    @Before("lazyPreChecker()")//applying pointcut on before advice
     public void preLoader(JoinPoint jp){
         System.out.println("Called the jp - Before");
     }

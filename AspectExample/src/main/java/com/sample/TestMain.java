@@ -1,6 +1,5 @@
 package com.sample;
 
-import com.sample.framework.ComponentFactory;
 import com.sample.modules.ModuleA;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
