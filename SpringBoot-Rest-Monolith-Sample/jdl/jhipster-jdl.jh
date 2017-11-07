@@ -1,0 +1,55 @@
+entity User {
+	
+}
+entity Event {
+    description String,
+    startDate ZonedDateTime,
+    dueDate ZonedDateTime
+}
+entity EventResponseTime{
+ 	assignedDate ZonedDateTime,
+    unassignDate ZonedDateTime
+}
+entity EventType{
+	name String
+}
+entity Status {
+	name String
+}
+entity Vendor {
+	name String,
+    contactName String,
+    contactNumber String,
+    dateRegistered ZonedDateTime
+}
+entity Asset {
+	name String,
+    code String
+}
+entity Service {
+	startDate ZonedDateTime,
+    dueDate ZonedDateTime,
+    completedDate ZonedDateTime,
+    note String
+}
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+relationship ManyToOne {
+	Event{raisedBy} to User,
+    Event{assignedTo} to User,
+    EventResponseTime{eventOwner} to User,
+    Event{status} to Status,
+    Event{type} to EventType,
+    Service{assetUnderService} to Asset,
+    Service{servicingVendor} to Vendor
+}
+relationship ManyToMany {
+	Vendor{assetsServiced} to Asset
+}
+// Set pagination options
+paginate Asset with infinite-scroll
+
+dto * with mapstruct
+
+

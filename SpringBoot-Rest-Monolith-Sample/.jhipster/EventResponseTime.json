@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "eventOwner",
+            "otherEntityName": "user",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "assignedDate",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "unassignDate",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20171107005541",
+    "entityTableName": "event_response_time",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

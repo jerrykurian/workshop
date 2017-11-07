@@ -1,0 +1,43 @@
+
+<div *ngIf="vendor">
+    <h2><span jhiTranslate="assetsmgmtApp.vendor.detail.title">Vendor</span> {{vendor.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="assetsmgmtApp.vendor.name">Name</span></dt>
+        <dd>
+            <span>{{vendor.name}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.vendor.contactName">Contact Name</span></dt>
+        <dd>
+            <span>{{vendor.contactName}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.vendor.contactNumber">Contact Number</span></dt>
+        <dd>
+            <span>{{vendor.contactNumber}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.vendor.dateRegistered">Date Registered</span></dt>
+        <dd>
+            <span>{{vendor.dateRegistered | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.vendor.assetsServiced">Assets Serviced</span></dt>
+        <dd>
+            <span *ngFor="let assetsServiced of vendor.assetsServiceds; let last = last">
+                <a [routerLink]="['/asset', assetsServiced?.id ]">{{assetsServiced.id}}</a>{{last ? '' : ', '}}
+            </span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'vendor/'+ vendor.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

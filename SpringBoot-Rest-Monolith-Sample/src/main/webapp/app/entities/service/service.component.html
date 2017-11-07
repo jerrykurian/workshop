@@ -1,0 +1,74 @@
+<div>
+    <h2>
+        <span jhiTranslate="assetsmgmtApp.service.home.title">Services</span>
+        <button class="btn btn-primary float-right jh-create-entity create-service" [routerLink]="['/', { outlets: { popup: ['service-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span  jhiTranslate="assetsmgmtApp.service.home.createLabel">
+            Create new Service
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="services">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span jhiTranslate="global.field.id">ID</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.startDate">Start Date</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.dueDate">Due Date</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.completedDate">Completed Date</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.note">Note</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.assetUnderService">Asset Under Service</span></th>
+            <th><span jhiTranslate="assetsmgmtApp.service.servicingVendor">Servicing Vendor</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let service of services ;trackBy: trackId">
+                <td><a [routerLink]="['../service', service.id ]">{{service.id}}</a></td>
+                <td>{{service.startDate | date:'medium'}}</td>
+                <td>{{service.dueDate | date:'medium'}}</td>
+                <td>{{service.completedDate | date:'medium'}}</td>
+                <td>{{service.note}}</td>
+                <td>
+                    <div *ngIf="service.assetUnderServiceId">
+                        <a [routerLink]="['../asset', service.assetUnderServiceId  ]" >{{service.assetUnderServiceId}}</a>
+                    </div>
+                </td>
+                <td>
+                    <div *ngIf="service.servicingVendorId">
+                        <a [routerLink]="['../vendor', service.servicingVendorId  ]" >{{service.servicingVendorId}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../service', service.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'service/'+ service.id + '/edit'} }]"
+                                replaceUrl="true"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'service/'+ service.id + '/delete'} }]"
+                                replaceUrl="true"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

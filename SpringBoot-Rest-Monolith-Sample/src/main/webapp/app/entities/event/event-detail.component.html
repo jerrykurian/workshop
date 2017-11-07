@@ -1,0 +1,53 @@
+
+<div *ngIf="event">
+    <h2><span jhiTranslate="assetsmgmtApp.event.detail.title">Event</span> {{event.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="assetsmgmtApp.event.description">Description</span></dt>
+        <dd>
+            <span>{{event.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.startDate">Start Date</span></dt>
+        <dd>
+            <span>{{event.startDate | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.dueDate">Due Date</span></dt>
+        <dd>
+            <span>{{event.dueDate | date:'medium'}}</span>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.raisedBy">Raised By</span></dt>
+        <dd>
+            {{event.raisedById}}
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.assignedTo">Assigned To</span></dt>
+        <dd>
+            {{event.assignedToId}}
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.status">Status</span></dt>
+        <dd>
+            <div *ngIf="event.statusId">
+                <a [routerLink]="['/status', event.statusId]">{{event.statusId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="assetsmgmtApp.event.type">Type</span></dt>
+        <dd>
+            <div *ngIf="event.typeId">
+                <a [routerLink]="['/event-type', event.typeId]">{{event.typeId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'event/'+ event.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

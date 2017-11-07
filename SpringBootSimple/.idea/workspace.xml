@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c99ace9-d0a4-4ca6-892d-5e43108002ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/ComponentFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/Dependency.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/framework/InjectDependency.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.classpath" afterPath="$PROJECT_DIR$/../AnnotationSample/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.project" afterPath="$PROJECT_DIR$/../AnnotationSample/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AnnotationSample/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../AnnotationSample/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/pom.xml" afterPath="$PROJECT_DIR$/../AspectExample/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/TestMain.java" afterPath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/TestMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/aspects/LazyLoader.java" afterPath="$PROJECT_DIR$/../AspectExample/src/main/java/com/sample/aspects/LazyLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1c99ace9-d0a4-4ca6-892d-5e43108002ef" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +53,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
